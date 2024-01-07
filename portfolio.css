@@ -1,0 +1,112 @@
+/* Add your styling here */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+.header-custom {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* About section styling */
+.about, .about-custom {
+    padding: 2em;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-custom img {
+    border-radius: 50%; /* Add a circular border to the image */
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Skills section styling */
+.skills {
+    padding: 2em;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Projects section styling */
+.projects {
+    padding: 2em;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Resume section styling */
+.resume {
+    padding: 2em;
+}
+
+.resume a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume a:hover {
+    color: #4CAF50;
+}
+
+/* Contact section styling */
+.contact {
+    padding: 2em;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
